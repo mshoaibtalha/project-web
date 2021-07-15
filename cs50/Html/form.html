@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Different type of Forms</title>
+  </head>
+  <body>
+    <h3>Basic type of Forms</h3>
+    <form action="">
+      <input type="text" placeholder="First Name" />
+      <input type="text" placeholder="Last Name" />
+      <input type="submit" />
+    </form>
+    <h3>Radio button</h3>
+    <form action="">
+      <input type="radio" id="oslo" name="fav-city" value="Oslo" />
+      <label for="oslo">Oslo</label><br />
+      <input type="radio" id="lahore" name="fav-city" value="Lahore" />
+      <label for="lahore">Lahore</label><br />
+      <input type="radio" id="islamabad" name="fav-city" value="Islamabad" />
+      <label for="islamabad">Islamabad</label><br />
+      <input type="radio" id="london" name="fav-city" value="London" />
+      <label for="london">London</label><br />
+    </form>
+    <h3>Check box</h3>
+    <form action="">
+      <input type="checkbox" id="oslo" name="fav-city" value="Oslo" />
+      <label for="oslo">Oslo</label><br />
+      <input type="checkbox" id="lahore" name="fav-city" value="Lahore" />
+      <label for="lahore">Lahore</label><br />
+      <input type="checkbox" id="islamabad" name="fav-city" value="Islamabad" />
+      <label for="islamabad">Islamabad</label><br />
+      <input type="checkbox" id="london" name="fav-city" value="London" />
+      <label for="london">London</label><br />
+    </form>
+    <h3>Form Attributes</h3>
+    <h4>The Action Attributes</h4>
+    <p>
+      Action Attributes defines action to be performed after we submit the form
+    </p>
+    <h4>The Target Attributes</h4>
+    <p>
+      The target attribute specifies where to display the response that is
+      received after submitting the form
+    </p>
+    <h4>The Method Attributes</h4>
+    <p>
+      The method attribute specifies the HTTP method to be used when submitting
+      the form data.The form-data can be sent as URL variables (with
+      method="get") or as HTTP post transaction (with method="post").The default
+      HTTP method when submitting form data is GET.
+    </p>
+    <h4>The Autocomplete Attributes</h4>
+    <p>
+      The autocomplete attribute specifies whether a form should have
+      autocomplete on or off.When autocomplete is on, the browser automatically
+      complete values based on values that the user has entered before.
+    </p>
+    <h3>HTML Form Element</h3>
+    <p>
+     <blockquote>
+        input<br>
+        label<br>
+        select<br>
+        textarea<br>
+        button<br>
+        fieldset<br>
+        lengend<br>
+        datalist<br>
+        output<br>
+        option<br>
+        optgroup<br>
+
+      </blockquote>
+    </p>
+    <h4>The Input and Lebel Element </h4>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city">
+    <h4>The Select and option Element</h4>
+    <form action="/action_page.php">
+     <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+       <option value="fiat">Fiat</option>
+       <option value="audi">Audi</option>
+      </select>
+     <input type="submit">
+    </form>
+    <h4>The TextArea Element</h4>
+     <form >
+        <textarea name="message" rows="10" cols="30">I had been to many countries but i love my motherland </textarea>
+        <br>
+        <input type="submit">
+     </form>
+
+
+
+
+  </body>
+</html>
