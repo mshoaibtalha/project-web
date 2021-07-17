@@ -1,2 +1,10 @@
 # project-web
- Started new course from Harward University cs50
+ In this repository , i will be documenting my journey to web development.
+
+  
+
+- [Basic]: ./html/basic/basic.md
+  []: 
+
+  
+
