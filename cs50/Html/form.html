@@ -95,9 +95,30 @@
         <br>
         <input type="submit">
      </form>
+  <h4>The Datalist Element</h4>
+  <form action="#" >
+    <input list="carbrands" name="carbrands">
+      <datalist id="carbrands">
+        <option value="Hyundai">
+        <option value="Toyota">
+        <option value="BMW">
+        <option value="Honda">
+        <option value="Lexus">
+      </datalist>
+    <input type="submit">
+</form>
+<h4>The Output Element</h4>
+<form 
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="range" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
 
-
-
-
-  </body>
+</body>
 </html>
