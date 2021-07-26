@@ -17,6 +17,7 @@ The default text color for a page is defined in the body selector.
 ```html
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <style>
       body {
@@ -39,6 +40,32 @@ The default text color for a page is defined in the body selector.
 </html>
 ```
 
+=======
+<head>
+<style>
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+</style>
+</head>
+<body>
+
+<h1>This is heading 1</h1>
+<p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
+<p>Another paragraph.</p>
+
+</body>
+</html>
+
+```
+
+
+
+>>>>>>> 53902ea2df5b5d6522b9dc4dafe01bfe61db9074
 #### Text Color and Background Color
 
 Here we will see how we can format color and background of text and element.
@@ -46,6 +73,7 @@ Here we will see how we can format color and background of text and element.
 ```html
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <style>
       body {
@@ -67,6 +95,33 @@ Here we will see how we can format color and background of text and element.
 </html>
 ```
 
+=======
+<head>
+<style>
+body {
+  background-color: lightgrey;
+  color: blue;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>This Heading is Black with White Text</h1>
+<p>This page has a grey background color and a blue text.</p>
+<p>Another paragraph.</p>
+
+</body>
+</html>
+```
+
+
+
+>>>>>>> 53902ea2df5b5d6522b9dc4dafe01bfe61db9074
 #### Text Alignment
 
 The `text-align` property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified.
@@ -121,6 +176,7 @@ The `direction` and `unicode-bidi` properties can be used to change the text dir
 ```html
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <style>
       p.ex1 {
@@ -135,6 +191,25 @@ The `direction` and `unicode-bidi` properties can be used to change the text dir
     <p class="ex1">This is right-to-left text direction.</p>
   </body>
 </html>
+=======
+<head>
+<style>
+p.ex1 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+</style>
+</head>
+<body>
+
+<p>This is the default text direction.</p>
+
+<p class="ex1">This is right-to-left text direction.</p>
+
+</body>
+</html>
+
+>>>>>>> 53902ea2df5b5d6522b9dc4dafe01bfe61db9074
 ```
 
 #### Vertical Alignment
@@ -144,6 +219,7 @@ The `vertical-align` property sets the vertical alignment of an element.
 ```html
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <style>
       img.a {
@@ -201,6 +277,53 @@ The `vertical-align` property sets the vertical alignment of an element.
     </p>
   </body>
 </html>
+=======
+<head>
+<style>
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+</style>
+</head>
+<body>
+
+<h1>The vertical-align Property</h1>
+
+<h2>vertical-align: baseline (default):</h2>
+<p>An <img class="a" src="purplebox.gif" width="9" height="9"> image with a default alignment.</p> 
+
+<h2>vertical-align: text-top:</h2>
+<p>An <img class="b" src="purplebox.gif" width="9" height="9"> image with a text-top alignment.</p> 
+
+<h2>vertical-align: text-bottom:</h2>
+<p>An <img class="c" src="purplebox.gif" width="9" height="9"> image with a text-bottom alignment.</p>
+
+<h2>vertical-align: sub:</h2>
+<p>An <img class="d" src="purplebox.gif" width="9" height="9"> image with a sub alignment.</p> 
+
+<h2>vertical-align: sup:</h2>
+<p>An <img class="e" src="purplebox.gif" width="9" height="9"> image with a super alignment.</p>
+
+</body>
+</html>
+
+>>>>>>> 53902ea2df5b5d6522b9dc4dafe01bfe61db9074
 ```
 
 #### Text Decoration
@@ -243,3 +366,7 @@ h3 {
 </html>
 
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53902ea2df5b5d6522b9dc4dafe01bfe61db9074
