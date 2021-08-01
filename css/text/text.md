@@ -246,3 +246,71 @@ h3 {
 #### Text Transformation
 
 The `text-transform` property is used to specify uppercase and lowercase letters in a text. It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:
+
+```css
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+```
+
+#### Text Indentation
+
+The `text-indent` property is used to specify the indentation of the first line of a text:
+
+```css
+p {
+  text-indent: 50px;
+}
+```
+
+
+
+#### Letter Spacing
+
+The `letter-spacing` property is used to specify the space between the characters in a text.
+
+The following example demonstrates how to increase or decrease the space between characters:
+
+```css
+h1 {
+  letter-spacing: 3px;
+}
+
+h2 {
+  letter-spacing: -3px;
+}
+```
+
+#### Text Shadow
+
+The `text-shadow` property adds shadow to text.
+
+In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px):
+
+```css
+h1 {
+  text-shadow: 2px 2px;
+}
+```
+
+#### Text shadow effect!
+
+```css
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+```
+
+
+
+
+
+source: www.w3.org , www.w3school.com 
